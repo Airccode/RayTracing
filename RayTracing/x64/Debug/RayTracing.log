@@ -1,0 +1,69 @@
+﻿  color.cpp
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,18): error C2143: syntax error: missing ',' before '&'
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,9): error C3646: 'origin': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,15): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,7): error C3646: 'direction': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,16): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,9): error C3646: 'at': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,11): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,27): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(15,9): error C3646: 'orig': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(15,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(16,7): error C3646: 'dir': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(16,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,55): error C2065: 'origin': undeclared identifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,67): error C2065: 'direction': undeclared identifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,50): error C2614: 'ray': illegal member initialization: 'orig' is not a base or member
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,63): error C2614: 'ray': illegal member initialization: 'dir' is not a base or member
+  main.cpp
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,18): error C2143: syntax error: missing ',' before '&'
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,9): error C3646: 'origin': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,15): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,7): error C3646: 'direction': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,16): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,9): error C3646: 'at': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,11): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,27): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(15,9): error C3646: 'orig': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(15,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(16,7): error C3646: 'dir': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(16,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,55): error C2065: 'origin': undeclared identifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,67): error C2065: 'direction': undeclared identifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,50): error C2614: 'ray': illegal member initialization: 'orig' is not a base or member
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,63): error C2614: 'ray': illegal member initialization: 'dir' is not a base or member
+C:\Users\25795\source\repos\RayTracing\RayTracing\hittable.h(13,22): error C2039: 'direction': is not a member of 'ray'
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(5): message : see declaration of 'ray'
+C:\Users\25795\source\repos\RayTracing\RayTracing\camera.h(21,1): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'ray'
+C:\Users\25795\source\repos\RayTracing\RayTracing\camera.h(21,1): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\25795\source\repos\RayTracing\RayTracing\main.cpp(22,36): error C2039: 'direction': is not a member of 'ray'
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(5): message : see declaration of 'ray'
+C:\Users\25795\source\repos\RayTracing\RayTracing\main.cpp(57,60): error C2660: 'ray_color': function does not take 3 arguments
+C:\Users\25795\source\repos\RayTracing\RayTracing\main.cpp(17,7): message : see declaration of 'ray_color'
+  vec3.cpp
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,18): error C2143: syntax error: missing ',' before '&'
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,9): error C3646: 'origin': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,15): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(10,23): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,7): error C3646: 'direction': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,16): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(11,24): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,9): error C3646: 'at': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,11): error C2059: syntax error: '('
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(13,27): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(15,9): error C3646: 'orig': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(15,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(16,7): error C3646: 'dir': unknown override specifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(16,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,55): error C2065: 'origin': undeclared identifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,67): error C2065: 'direction': undeclared identifier
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,50): error C2614: 'ray': illegal member initialization: 'orig' is not a base or member
+C:\Users\25795\source\repos\RayTracing\RayTracing\ray.h(9,63): error C2614: 'ray': illegal member initialization: 'dir' is not a base or member
+  Generating Code...
