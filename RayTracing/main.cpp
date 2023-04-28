@@ -84,11 +84,11 @@ int main()
 
     //Image
     const double aspect_ratio = 3.0 / 2.0;
-    const int image_width = 1200;
+    const int image_width = 480;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
-    const int sample_per_pixel = 500;
+    const int sample_per_pixel = 50;
     const int max_depth = 50;
-
+    std::cout << "¹²ÓÐ" << image_height * image_width << "¸öÏñËØ" << std::endl;
     //World
     hittable_list world = random_scene();
     //world.add(make_shared<sphere>(point3(0, 0, -1), 0.5));
